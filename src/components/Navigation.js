@@ -4,7 +4,7 @@ const Navigation = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">NextJS</a>
+          <a className="navbar-brand" href="/">NextJS</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
@@ -21,8 +21,8 @@ const Navigation = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link href={'/about'}>
-                            <a className="nav-link">About</a>
+                        <Link href={'/users'}>
+                            <a className="nav-link">Users</a>
                         </Link>
                     </li>
                 </ul>
